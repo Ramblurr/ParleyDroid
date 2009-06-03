@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	 android:background="#fff">
+ <ViewFlipper android:id="@+id/FCViewFlipper"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+<TextView  
+	android:gravity="center"
+	android:layout_alignParentTop="true" 
+	android:layout_marginTop="10px"
+	android:layout_centerHorizontal="true" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+    android:text="Hello"
+    android:textSize="24pt"
+	android:textColor="#000"
+    android:id="@+id/word1"
+    />
+    <TextView  
+	android:gravity="center"
+	android:layout_alignParentTop="true" 
+	android:layout_marginTop="10px"
+	android:layout_centerHorizontal="true" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+    android:text="Hello2"
+    android:textSize="24pt"
+	android:textColor="#000"
+    android:id="@+id/word2"
+    />
+ </ViewFlipper>
+</RelativeLayout>

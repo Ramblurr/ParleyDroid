@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------
+Copyright and licensing information for Parley for Android
+--------------------------------------------------------------------------
+
+Below you will find the copyright and licensing information for the
+program Parley for Android, a vocabulary trainer for mobile devices. The project
+is currently hosted at XX. The
+complete sources for the application are available from there.
+
+IMPORTANT NOTICE: Some parts of this program are taken from other
+projects. For these parts a different copyright or license may apply
+(see the notices at the bottom of this file)!
+
+---
+Copyright (C) 2009  Casey Link <unnamedrambler@gmail.com>
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,   
+but WITHOUT ANY WARRANTY; without even the implied warranty of      
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the   
+GNU General Public License for more details.    
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+See the file GPLv3.txt in the doc directory for details.
+---
+
+Short summary of third party components used in Parley for Android.
+Many thanks to the authors of all these free software components!
+
+---
+Uses MobVoc for kvtml parsing and data structures
+Copyright (C) 2008 Michael Hofer mobvoc [at] unglaublich.priv.at
+Originally released under GPLv2  
+---
+Uses the KXML2 library for XML parsing
+Copyright (C) 2002,2003, Stefan Haustein, Oberhausen, Rhld., Germany
+Originally released under a BSD license
+---
+Uses UserTask for easy UI threading.
+Copyright (C) 2008 Google Inc.
+Originally released under the Apache License, Version 2 (see 
+http://www.apache.org/licenses/LICENSE-2.0 for details)
+---
+Uses ArabicShaper for proper rendering of Arabic strings
+Copyright (C) 2008 Ahmed Essam
+Copyright (C) 2009 Abdull B <x2android@gmail.com>
+Unlicensed.
+---
+Uses DejaVu Sans Fontface for Arabic characters
+DejaVu Fonts are © Bitstream (see below). DejaVu changes are in public domain.
+See http://dejavu-fonts.org/wiki/index.php?title=License
+
+
+
+
+
+

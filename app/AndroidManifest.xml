@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.binaryelysium.android.parley"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:label="ParleyDroid" android:name="ParleyApplication"> 
+        <activity android:name=".Parley"
+                  android:label="ParleyDroid">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FlashcardSession" android:label="ParleyDroid: Exercise Session" android:configChanges="keyboardHidden">
+			<intent-filter>
+			</intent-filter>
+		</activity>
+		<activity android:name=".filepicker.FilePicker" android:label="ParleyDroid: Choose Collection" android:configChanges="keyboardHidden">
+			<intent-filter>
+			</intent-filter>
+		</activity>
+    </application>
+</manifest> 
